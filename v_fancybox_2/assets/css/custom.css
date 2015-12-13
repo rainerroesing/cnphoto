@@ -216,6 +216,17 @@ border: 3px solid #07defe!important;
 padding: 0px!important;
 }
 
+.fancybox-thumb-prev, .fancybox-thumb-next {
+background: none!important
+}
+
+.fancybox-thumb-prev span {
+    background:url(../img/prev.svg)!important;
+}
+
+.fancybox-thumb-next span {
+    background:url(../img/next.svg)!important;
+}
 /*---- controls ---- */
 a.fancybox-close {
     width: 36px!important;
@@ -225,8 +236,9 @@ a.fancybox-close {
 .fancybox-close {
     background-image: url(../img/close.svg)!important;
     background-size: 36px!important;
-    top: 0px!important;
-    right: -74px!important;
+    top: 10px!important;
+    right: 10px!important;
+    position: fixed!important;
 }
 
 .fancybox-desktop  a.fancybox-close {
@@ -251,6 +263,8 @@ a.fancybox-nav span {
     background-position: center!important;
     visibility: visible!important;
     opacity: 0.5!important; filter: alpha(opacity=50);
+    position: fixed!important;
+    top: 50%!important;
 }
 
 a.fancybox-nav span:hover {
