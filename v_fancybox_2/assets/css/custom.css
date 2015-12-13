@@ -192,7 +192,31 @@ li.social a {
     margin-left: 0px!important;
 }
 
-/* ---- controls ---- */
+/* ---- thumbs ---- */
+#fancybox-thumbs ul li {
+border: 3px solid rgba(0, 0, 0, 0)!important;
+padding: 0px!important;
+    margin: 5px;
+}
+
+#fancybox-thumbs ul li a{
+    background: none!important;
+    border: none!important
+}
+
+#fancybox-thumbs ul li.active{
+opacity: 1!important;
+border: 3px solid white!important;
+padding: 0px!important;
+}
+
+#fancybox-thumbs ul li:hover{
+opacity: 1!important;
+border: 3px solid #07defe!important;
+padding: 0px!important;
+}
+
+/*---- controls ---- */
 a.fancybox-close {
     width: 36px!important;
     height: 36px!important;
