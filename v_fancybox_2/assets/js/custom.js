@@ -61,28 +61,26 @@
         
     /* ---------------------------------------------- /*
 	 * FANCYBOX
-	/* ---------------------------------------------- 
-        $('.fancybox-thumbs').fancybox({
-            prevEffect  : 'fade',
-            prevSpeed   : 300,
-            nextEffect  : 'fade',
-            nextSpeed   : 300,
-            openEffect  : 'none',
-            closeEffect : 'none',
-            margin      : [0, 0, 0, 0],
-            padding   : [0, 0, 0, 1],	
-            closeBtn  : true,
-            arrows    : true,
-            nextClick : true,    
-            helpers : {
-				thumbs : {
-				    width  : 50,
-				    height : 50
-				    }
+	/* ---------------------------------------------- */
+      	
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'fade',
+				nextEffect : 'fade',
+                prevSpeed   : 300,
+                nextSpeed   : 300,
+				closeBtn  : true,
+				arrows    : true,
+				nextClick : true,
+                margin      : [0, 0, 0, 0],
+                padding   : [0, 0, 0, 1],
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
 				}
-			});*/
-        
-        
+			});
 
     /* ---------------------------------------------- /*
 	 * BLOG

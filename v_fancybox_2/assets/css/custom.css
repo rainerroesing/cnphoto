@@ -294,7 +294,15 @@ background: none!important
 .fancybox-thumb-next span {
     background:url(../img/next.svg)!important;
 }
-*/
+
+.child {
+    background: none!important;
+}
+
+.fancybox-title-float-wrap {
+    margin-bottom: -30px!important;
+}
+
 /* BLOG
 ---------------------------------------------------- */
 .post {
