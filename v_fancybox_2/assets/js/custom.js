@@ -79,7 +79,15 @@
 						width  : 50,
 						height : 50
 					}
-				}
+				},
+                  beforeShow: function () {
+                /* Add watermark */
+                $('<div class="watermark"></div>')
+                    .bind("contextmenu", function (e) {
+                        return false; /* Disables right click */
+                    })
+                    .prependTo( $.fancybox.inner );   
+                  }
 			});
 
     /* ---------------------------------------------- /*
