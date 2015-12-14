@@ -18,8 +18,7 @@ a:hover {
 
 .ContentBox{
     height: calc(100vh - 127px);   
-    padding-top: 50px;
-    min-padding-top: 50px;
+    min-padding-top: 50px!important;
 }
 
 

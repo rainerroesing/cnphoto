@@ -18,8 +18,7 @@
 		$('.page-loader').delay(350).fadeOut('slow');
         $('.page-loader-sub').delay(350).fadeOut('slow');
 	});
-    
-    
+
     /* ---------------------------------------------- /*
 	 * Vertical Content Centering
 	/* ---------------------------------------------- */  
