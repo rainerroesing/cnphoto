@@ -11,12 +11,39 @@
     });
     wow.init();
       
+        
 	/* ---------------------------------------------- /*
 	 * Preloader
 	/* ---------------------------------------------- */    
 		$('.page-loader').delay(350).fadeOut('slow');
         $('.page-loader-sub').delay(350).fadeOut('slow');
 	});
+    
+    
+    /* ---------------------------------------------- /*
+	 * Vertical Content Centering
+	/* ---------------------------------------------- */  
+        $(window).on('load resize', function () {
+        $('.ContentBox').css("padding-top", "");
+
+        ContentPadding();
+        });
+
+
+        function ContentPadding() {
+
+
+            var $ContentBox = $(".ContentBox").height();
+
+            var $ContentWrapper = $(".ContentWrapper").height();
+
+
+            $myPaddingTop = ($('.ContentBox').height() - $('.ContentWrapper').height() ) / 2;
+            $('.ContentBox').css("padding-top", $myPaddingTop);
+
+            console.log($ContentBox + "  " + $ContentWrapper + "  " + $myPaddingTop)
+        }
+
 
 	$(document).ready(function() {
         
