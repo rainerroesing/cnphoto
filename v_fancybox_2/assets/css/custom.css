@@ -196,13 +196,13 @@ li.social a {
 	background: url('../img/fancybox_loading.gif') center center no-repeat!important;
 }
 .fancybox-outer, .fancybox-inner {
-text-align: center!important;
+    text-align: center!important;
 }
 
 /* ---- thumbs ---- */
 #fancybox-thumbs ul li {
-border: 3px solid rgba(0, 0, 0, 0)!important;
-padding: 0px!important;
+    border: 3px solid rgba(0, 0, 0, 0)!important;
+    padding: 0px!important;
     margin: 5px;
 }
 
@@ -212,19 +212,23 @@ padding: 0px!important;
 }
 
 #fancybox-thumbs ul li.active{
-opacity: 1!important;
-border: 3px solid white!important;
-padding: 0px!important;
+    opacity: 1!important;
+    padding: 0px!important;
+    background-image: url(../img/active.svg)!important;
+}
+
+#fancybox-thumbs ul li.active:hover{
+    border: 3px solid rgba(0, 0, 0, 0)!important;
 }
 
 #fancybox-thumbs ul li:hover{
-opacity: 1!important;
-border: 3px solid #07defe!important;
-padding: 0px!important;
+    opacity: 1!important;
+    border: 3px solid #07defe!important;
+    padding: 0px!important;
 }
 
 .fancybox-thumb-prev, .fancybox-thumb-next {
-background: none!important
+    background: none!important
 }
 
 .fancybox-thumb-prev span {
@@ -476,7 +480,7 @@ html {
 }
 
 .grid-sizer,
-    .grid-item {
+.grid-item {
         width: 100%;
     }
 
@@ -581,7 +585,7 @@ p.caption-small {
         padding: 5px 15px 5px 15px
     }
     .main-start {
-    margin-top: 102px;
+        margin-top: 102px;
     }
     
     .navbar-toggle {
@@ -590,38 +594,38 @@ p.caption-small {
     
     /* ---- fancybox----*/ 
     a.fancybox-prev {
-    left:0px!important;
+        left:0px!important;
     }
      a.fancybox-next {
-    right:0px!important;
+         right:0px!important;
     }
         
     a.fancybox-next span {
-    right:-10px!important
+        right:-10px!important
     }
      a.fancybox-prev span {
-    left:-10px!important
+        left:-10px!important
     }
     
     .fancybox-close {
-    top: -30px!important;
-    right: 15px!important;
+        top: -30px!important;
+        right: 15px!important;
     }
     
     a.fancybox-nav span {
-    background-size: 10px!important;
+        background-size: 10px!important;
     }
     
     a.fancybox-close {
-    width: 26px!important;
-    height: 26px!important;
+        width: 26px!important;
+        height: 26px!important;
     }
 
     .fancybox-close {
         background-image: url(../img/close.svg)!important;
         background-size: 26px!important;
-        top: 0px!important;
-        right: 0px!important;
+        top: 5px!important;
+        right: 5px!important;
     }
 }
     
@@ -639,7 +643,7 @@ p.caption-small {
     }
     
     .main {
-    margin-top: 200px;
+        margin-top: 200px;
     }
     
     .topspace {
@@ -647,7 +651,7 @@ p.caption-small {
         z-index: 100;
     }
     .leftspace {
-     padding-left: 60px;
+        padding-left: 60px;
         padding-bottom: 30px;
     }
     
