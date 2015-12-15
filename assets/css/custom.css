@@ -18,7 +18,7 @@ a:hover {
 
 .ContentBox{
     height: calc(100vh - 127px);   
-    min-padding-top: 50px!important;
+    padding-top: 50px;
 }
 
 
@@ -328,6 +328,8 @@ background: none!important
     
 /* BLOG
 ---------------------------------------------------- */
+.main.blog {padding-top: 50px;}
+
 .post {
     margin-bottom: 90px;
 }
