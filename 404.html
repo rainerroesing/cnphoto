@@ -95,9 +95,11 @@
         <div class="loaderback"></div>
 	</div>
     
-    <!-- Navigation -->
+      <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-nav">
+                    <a href="index.html"><img class="logo" src="assets/img/logo.svg"></a>
+
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
            <span class="sr-only">Toggle navigation</span>
@@ -105,19 +107,25 @@
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
           </button>
-          <a href="index.html" class="pull-left"><img class="logo" src="assets/img/logo.svg"></a>
+          <!--<a href="index.html" class="pll-left"><img class="logo" src="assets/img/logo.svg"></a>-->
 
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Latest</a></li>
+            <li class="active"><a href="index.html">Latest</a></li>
               <li class="dropdown">
                 <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Photos <b class="caret"></b></a>
-                <ul class="dropdown-menu dropdown-menu-left">
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Ipsum</a></li>
-                    <li><a href="#">Dolore</a></li>
+                <ul class="dropdown-menu dropdown-menu-left  filters-button-group">
+                    <li><a class="filter" href="#" data-filter="*">Show All</a></li>
+                    <li><a class="filter" href="#"  data-filter=".people">people</a></li>
+                    <li><a class="filter" href="#"  data-filter=".landscape">landscape</a></li>
+                    <li><a class="filter" href="#"  data-filter=".automotive">Automotive</a></li>
+                    <li><a class="filter" href="#" data-filter=".actors">Actors</a></li>
+                    <li><a class="filter" href="#" data-filter=".music">Music</a></li>
+
                 </ul>
+          
+        
             </li>
                <li class="dropdown space-right">
                 <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Videos <b class="caret"></b></a>

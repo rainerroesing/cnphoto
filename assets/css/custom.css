@@ -59,7 +59,8 @@ h1 {
 }
 
 .logo {
-    width: 100%;
+    width: 150px;
+    float: left;
     padding: 20px 0;
 }
 .space-right {
@@ -583,7 +584,10 @@ p.caption-small {
     ul.dropdown-menu li {
         display: inline-block;
     }
-
+    
+    /* ---- Startpage grid distance ----*/ 
+    .main.start {margin-top: 99px;
+    }
     
      /* ---- generell ----*/ 
     .nav > li.social {
@@ -652,6 +656,11 @@ p.caption-small {
         font-size: 11px;
     }
     
+     .logo {
+        width: 200px;
+        float:left;
+    }
+    
     .topspace {
         margin-top: 80px;
         z-index: 100;
@@ -673,9 +682,7 @@ p.caption-small {
 
 
 @media (min-width: 996px) {
-    .logo {
-        width: 140%;
-    }
+   
     .navbar-nav {
         padding-top: 83px;
         font-size: 14px;
