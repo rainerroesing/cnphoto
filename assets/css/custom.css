@@ -195,9 +195,16 @@ li.social a {
     margin-left: 0px!important;
 }
 /* ---- loader & error ---- */
-#fancybox-loading div {
-	background: url('../img/fancybox_loading.gif') center center no-repeat!important;
+
+#fancybox-loading {
+    background: #16191b!important;
+    background-image: url(../img/active.svg)!important;
 }
+
+#fancybox-loading div {
+	background-image: url(../img/loader.svg)!important;
+}
+
 .fancybox-outer, .fancybox-inner {
     text-align: center!important;
 }
@@ -796,8 +803,12 @@ svg {
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
 
+    #fancybox-loading {
+        background-image: url(../img/active.svg)!important;
+	}
+           
 	#fancybox-loading div {
-		background-image: url('../img/fancybox_loading@2x.gif')!important;
+		background-image: url('../img/loader.svg')!important;
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
