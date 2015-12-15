@@ -513,16 +513,25 @@ html {
 }
 .caption {
     position: relative;
-    padding: 15px;
+    padding: 10px;
     bottom: 0px;
     width: 100%;
     text-align: center;
 }
+
+.caption .tl,
+.caption .tr,
+.caption .bl,
+.caption .br {
+    width: 10px;
+    height: 10px;
+}
+
 p.caption-title {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px;
-    margin: 5px;
+    margin: 0px;
     color: #fff!important;
 }
 p.caption-title:hover {
@@ -534,6 +543,7 @@ p.caption-small {
     text-transform: uppercase;
     font-size: 10px;
     color: #fff!important;
+    margin:5px 0 0 0!important;
 }
 
 /* ---- hover ---- */
