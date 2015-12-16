@@ -562,7 +562,7 @@ html {
 p.caption-title {
     text-transform: uppercase;
     font-size: 14px;
-    padding: 0px;
+    padding: 5px 0 0 0;
     margin: 0px;
     color: #fff!important;
 }
