@@ -50,7 +50,7 @@ a:hover {
 
 
 .main{
-    margin-top: 127px;
+    margin-top: 100px;
 }
 h1,
 h2,
@@ -86,9 +86,9 @@ h1 {
 }
 
 .logo {
-    width: 150px;
+    width: 140px;
     float: left;
-    padding: 20px 0;
+    padding: 25px 0 20px 0;
 }
 .space-right {
     padding-right: 25px;
@@ -698,11 +698,6 @@ p.caption-small {
         font-size: 11px;
     }
     
-     .logo {
-        width: 200px;
-        float:left;
-    }
-    
     .topspace {
         margin-top: 80px;
         z-index: 100;
@@ -724,11 +719,21 @@ p.caption-small {
 
 
 @media (min-width: 996px) {
-   
+          
+     .logo {
+        width: 200px;
+        float:left;
+    }
+    
     .navbar-nav {
-        padding-top: 83px;
+        padding-top: 80px;
         font-size: 14px;
     }
+    
+    .main {
+            margin-top: 127px;
+    }
+    
     .contact {
         margin-top: 200px;
     }
