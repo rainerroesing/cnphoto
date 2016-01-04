@@ -109,7 +109,7 @@
 						height : 50
 					}
 				},
-                  beforeShow: function () {
+                beforeShow: function () {
                 /* Add watermark */
                 $('<div class="watermark"></div>')
                     .bind("contextmenu", function (e) {
@@ -118,6 +118,8 @@
                     .prependTo( $.fancybox.inner );   
                   }
 			});
+
+
 
     /* ---------------------------------------------- /*
 	 * BLOG
