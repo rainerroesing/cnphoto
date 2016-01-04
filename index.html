@@ -82,8 +82,10 @@
   </head>
 
   <body>
-      
+
+
     <!-- Preloader -->
+    <!-- loader nur beim ersten load -->
 	<div class="page-loader">
 		<div class="loader">Loading...</div>
         <svg width="92" height="91" viewbox="0 0 40 40">
@@ -92,7 +94,9 @@
 </svg>
         <div class="loaderback"></div>
 	</div>
-    
+    <!-- Preloader end -->
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-nav">
@@ -112,7 +116,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Latest</a></li>
               <li class="dropdown">
-                <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Photos <b class="caret"></b></a>
+                <!-- fotos filter werden automatisch reingeladen -->
+                  <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Photos <b class="caret"></b></a>
+                  <!-- klick auf foto ist gleich show all -->
                 <ul class="dropdown-menu dropdown-menu-left  filters-button-group">
                     <li><a class="filter" href="#" data-filter="*">Show All</a></li>
                     <li><a class="filter" href="#"  data-filter=".people">people</a></li>
@@ -120,11 +126,11 @@
                     <li><a class="filter" href="#"  data-filter=".automotive">Automotive</a></li>
                     <li><a class="filter" href="#" data-filter=".actors">Actors</a></li>
                     <li><a class="filter" href="#" data-filter=".music">Music</a></li>
-
                 </ul>
           
         
             </li>
+              <!-- menuoption klasse space right -->
                <li class="dropdown space-right">
                 <a href="index.html" data-toggle="dropdown" class="dropdown-toggle">Videos <b class="caret"></b></a>
                 <ul class="dropdown-menu dropdown-menu-left">
@@ -135,6 +141,8 @@
             </li>
             <li><a href="blog.html">Blog</a></li>        
             <li><a href="about.html">About</a></li>
+
+              <!-- social media optionen fix link pflegbar durch template optons --->
             <li class="space-right"><a href="contact.html">Contact</a></li>
             <li class="social"><a href="#facebook"><i class="fa fa-facebook"></i></a></li>
             <li class="social"><a href="#twitter"><i class="fa fa-twitter"></i></a></li>
@@ -151,16 +159,17 @@
         <div class="grid">
           <div class="grid-sizer"></div>
           <div class="gutter-sizer"></div>
-            
+
+           <!-- thmubnail typeA - start -->
           <a class="fancybox-thumbs" data-fancybox-group="thumb" href="assets/img/test.jpg" title="Picture subtitle">
-              <div class="grid-item landscap">
+              <div class="grid-item landscap"> <!-- landscape usw sind filter möglichen diese müssen an dieser stelel per wp eingebaut werden -->
               <div class="workwrapper">
-            <img src="assets/img/test.jpg" />
+            <img src="assets/img/test.jpg" /> <!-- bild wird einfach im verhältnis verkleinert -->
                    <div class="caption-container">
                  <div class="caption-wrapper">
                  <div class="caption" onclick="">
                             <p class="caption-title">Album Title too long is sho...</p>
-                            <p class="caption-small">16 Pictures</p>
+                            <p class="caption-small">16 Pictures</p> <!-- soll generier werden -->
                             <div class="tl"></div>
                             <div class="tr"></div>
                             <div class="bl"></div>
@@ -169,10 +178,18 @@
                   </div>
                   </div>
                 </div>
-           </div> </a> 
-            
-                  <a class="fancybox-thumbs" data-fancybox-group="thumb" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" title="Picture subtitle">
-          <div class="grid-item video">
+           </div>
+
+          <!-- platzhalter für galerie bilder -->
+          </a>
+
+            <!-- thmubnail typeA - end -->
+
+            <!-- thmubnail typeB - start -->
+            <!-- video  vimeo link -->
+
+            <a class="fancybox-thumbs" data-fancybox-group="thumb" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" title="Picture subtitle">
+          <div class="grid-item video"> <!-- klasse nru für video -->
             <div class="workwrapper">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
                 <div class="videobtn"></div> 
@@ -190,6 +207,8 @@
                 </div>
            </div>
             </a>
+            <!-- thmubnail typeB - end -->
+
 
             <a class="fancybox-thumbs" data-fancybox-group="thumb" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" title="Picture subtitle">
               <div class="grid-item music">
