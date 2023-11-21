@@ -1,0 +1,90 @@
+#cngal_mainedit {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #9d9d9d;
+  background-color: #fff;
+  overflow: auto; }
+
+#cngal_sortable {
+  margin-left: 12px;
+  margin: 25px; }
+
+.cngal_editbox {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #9d9d9d;
+  float: left;
+  margin: 5px; }
+
+#cngal_editcommandbar button {
+  float: left;
+  margin: 4px;
+  margin-left: 0px; }
+#cngal_editcommandbar a {
+  float: left;
+  margin: 4px;
+  margin-left: 0px; }
+
+i.thumbicon {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 10px 10px;
+  display: inline-block;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  box-shadow: 0px 0px 2px #888; }
+
+i.thumbicon:hover {
+  background-color: #464646;
+  color: #ffffff;
+  padding: 10px 10px;
+  display: inline-block;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  -moz-box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  box-shadow: 0px 0px 2px #888;
+  cursor: pointer; }
+
+.cngal_editbox:hover > .itemeditbutton {
+  visibility: visible; }
+
+.cngal_editbox:hover > .itemdeletebutton {
+  visibility: visible; }
+
+.itemeditbutton {
+  visibility: hidden;
+  position: relative;
+  top: -148px;
+  right: -45px; }
+
+.itemdeletebutton {
+  visibility: hidden;
+  position: relative;
+  top: -148px;
+  right: -50px; }
+
+.videoicon {
+  position: relative;
+  top: -148px;
+  right: -5px;
+  cursor: default !important; }
+
+.albumicon {
+  position: relative;
+  top: -148px;
+  right: -5px;
+  cursor: default !important; }
+
+.overlayLoading {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%; }
+
+/*# sourceMappingURL=cngalerie.css.map */
